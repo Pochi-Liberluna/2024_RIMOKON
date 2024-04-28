@@ -7,7 +7,8 @@ class move{
     void moveRight();
     void moveLeft();
     void moveBack();
-
+    void turnRight();
+    void turnLeft();
 };
 
 #endif
