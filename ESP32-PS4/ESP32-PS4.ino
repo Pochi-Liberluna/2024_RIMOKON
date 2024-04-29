@@ -22,6 +22,12 @@ void setup(){
 }
 
 void loop(){
+  
+  int LJoyX = PS4.LStickX();
+  int LJoyY = PS4.LStickY();
+  int RJoyX = PS4.RStickX();
+  int RJoyY = PS4.RStickY();
+  
   if(PS4.isConnected()){
 
     Serial.printf("Connected.\n");
@@ -75,7 +81,10 @@ void loop(){
       Serial.println();
       // delay(10);
   }
-  
+  if(LJoyY >= 175){
+    DC_Mortor.moveForward();
   }
-
+  if(LJoyY =< 75){
+    DC_Motor.moveBack();
+  }
 }
