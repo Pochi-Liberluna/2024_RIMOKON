@@ -75,13 +75,7 @@ void loop(){
       Serial.println();
       // delay(10);
   }
-
-  void moveForward(){
-    int LJoyStickX = PS4.LStickX();
-
-    if(LJoyStickX >= 200){
-      
-    }
+  
   }
 
 }
