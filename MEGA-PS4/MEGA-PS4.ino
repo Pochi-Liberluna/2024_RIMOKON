@@ -29,14 +29,79 @@ void loop(){
     char rChar = Serial.read();
 
     if(rChar == 'a'){
-      //関数を実装し実行させる。
+      
     }
-    //省略
+    if(rChar == 'b'){
+      
+    }
+    if(rChar == 'c'){
+      
+    }
+    if(rChar == 'd'){
+      
+    }
+    if(rChar == 'e'){
+      
+    }
+    if(rChar == 'f'){
+      
+    }
+    if(rChar == 'g'){
+      
+    }
+    if(rChar == 'h'){
+      
+    }
+    if(rChar == 'i'){
+      
+    }
+    if(rChar == 'j'){
+      
+    }
+    if(rChar == 'k'){
+      
+    }
+    if(rChar == 'l'){
+      
+    }
+    if(rChar == 'm'){
+      
+    }
+    if(rChar == 'n'){
+      
+    }
+    if(rChar == 'o'){
+      
+    }
+    if(rChar == 'p'){
+      
+    }
+    if(rChar == 'q'){
+      
+    }
+    if(rChar == 's'){
+      
+    }
+    if(rChar == 't'){
+      
+    }
+    if(rChar == 'u'){
+      
+    }
+    if(rChar == 'v'){
+      
+    }
     if(rChar == '0'){
       DC_Motor.moveForward();
     }
     if(rChar == '1'){
       DC_Motor.moveBack();
+    }
+    if(rChar == '2'){
+      
+    }
+    if(rChar == '3'){
+      
     }
   }
 }
