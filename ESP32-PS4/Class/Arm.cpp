@@ -1,26 +1,26 @@
 #include"Arm.h"
 
-void Arm1_open(){
+void arm::Arm1_open(){
   
 }
-void Arm1_close(){
+void arm::Arm1_close(){
   
 }
-void Arm2_open(){
+void arm::Arm2_open(){
   
 }
-void Arm2_close(){
+void arm::Arm2_close(){
   
 }
-void Arm3_open(){
+void arm::Arm3_open(){
   
 }
-void Arm3_close(){
+void arm::Arm3_close(){
   
 }
-void Arm4_open(){
+void arm::Arm4_open(){
   
 }
-void Arm4_close(){
+void arm::Arm4_close(){
   
 }
