@@ -15,7 +15,7 @@ void setup(){
   // Bluetooth MACアドレスの表示
   uint8_t bt_mac[6];
   esp_read_mac(bt_mac, ESP_MAC_BT);
-  Serial.printf("Bluetooth Mac Address => %02X;%02X:%02X:%02X:%02X:%02X\r\n", bt_mac[0], bt_mac[1], bt_mac[2], bt_mac[3], bt_mac[4], bt_mac[5]);
+  Serial.printf("Bluetooth Mac Address => %02X:%02X:%02X:%02X:%02X:%02X\r\n", bt_mac[0], bt_mac[1], bt_mac[2], bt_mac[3], bt_mac[4], bt_mac[5]);
 
   PS4.begin("1a:2b:3c:01:01:01"); //MACアドレス
   Serial.printf("Ready.");
