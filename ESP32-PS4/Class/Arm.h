@@ -11,4 +11,6 @@ public:
   void Arm3_close();
   void Arm4_open();
   void Arm4_close();
-}
+};
+
+#endif
