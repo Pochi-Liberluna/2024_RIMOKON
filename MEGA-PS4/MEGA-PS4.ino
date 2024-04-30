@@ -13,9 +13,21 @@ u = PS4.PSButton();  v = PS4.Touchpad();
 #include<BTS7960.h>
 #include<SoftwareSerial.h>
 #include<SPI.h>
+#include<Adafruit_PWMServoDriver.h>
+
+#define SERVO_MIN 130 
+#define SERVO_MAX 500
 
 move DC_Motor;
-PCA9685 pwm = PCA9685(0x40);
+//PCA9685 pwm = PCA9685(0x40);
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+
+void setAngle(uint8_t ch, int angle){
+  long val;
+
+  val = map(angle, 0, 180, SERVO_MIN, SERVO_MAX);
+  pwm.setPWM(ch, 0, val);
+}
 
 void setup(){
   Serial.begin(9600);
