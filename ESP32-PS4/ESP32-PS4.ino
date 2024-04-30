@@ -55,14 +55,16 @@ void loop(){
 
     if(PS4.L1()) Serial.write('m');
     if(PS4.R1()) Serial.write('n');
+    if(PS4.L2()) Serial.write('o');
+    if(PS4.R2()) Serial.write('p');
 
-    if(PS4.Share()) Serial.write('o');
-    if(PS4.Options()) Serial.write('p');
-    if(PS4.L3()) Serial. write('q');
-    if(PS4.R3()) Serial.write('r');
+    if(PS4.Share()) Serial.write('q');
+    if(PS4.Options()) Serial.write('r');
+    if(PS4.L3()) Serial. write('s');
+    if(PS4.R3()) Serial.write('t');
 
-    if(PS4.PSButton()) Serial.write('s');
-    if(PS4.Touchpad()) Serial.write('t');
+    if(PS4.PSButton()) Serial.write('u');
+    if(PS4.Touchpad()) Serial.write('v');
 
   /*  if(PS4.L2()){
        Serial.printf("L2 button at %d\n", PS4.L2Value());
