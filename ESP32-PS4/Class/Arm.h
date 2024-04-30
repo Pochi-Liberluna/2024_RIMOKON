@@ -1,7 +1,7 @@
 #ifndef ARM_H
 #define ARM_H
 
-class {
+class arm{
 public:
   void Arm1_open();
   void Arm1_close();
