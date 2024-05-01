@@ -21,6 +21,11 @@ u = PS4.PSButton();  v = PS4.Touchpad();
 
 move DC_Motor;
 PCA9685 pwm = PCA9685(0x40);
+// BTS7960 motor1(RPWM, LPWM, L_EN, R_EN);
+// BTS7960 motor2(RPWM, LPWM, L_EN, R_EN);
+// BTS7960 motor3(RPWM, LPWM, L_EN, R_EN);
+// BTS7960 motor4(RPWM, LPWM, L_EN, R_EN);
+
 // Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
 /*
