@@ -8,6 +8,7 @@ u = PS4.PSButton();  v = PS4.Touchpad();
 0 = moveForward();  1 = moveBack();  2 = moveRight();  3 = moveLeft();
 **/
 #include"../../ESP32-PS4/Class/move.h"
+#include"../../ESP32-PS4/Class/Arm.h"
 
 #include<PCA9685.h>
 #include<BTS7960.h>
