@@ -15,28 +15,28 @@ void setup(){
 }
 
 void moveForward(){
-  analogWrigte(RF_R, speed);
-  analogWrigte(LF_R, speed);
-  analogWrigte(RB_R, speed);
-  analogWrigte(LB_R, speed);
+  analogWrite(RF_R, speed);
+  analogWrite(LF_R, speed);
+  analogWrite(RB_R, speed);
+  analogWrite(LB_R, speed);
 }
 void moveBack(){
-  analogWrigte(RF_L, speed);
-  analogWrigte(LF_L, speed);
-  analogWrigte(RB_L, speed);
-  analogWrigte(LB_L, speed);
+  analogWrite(RF_L, speed);
+  analogWrite(LF_L, speed);
+  analogWrite(RB_L, speed);
+  analogWrite(LB_L, speed);
 }
 void moveLeft(){
-  analogWrigte(RF_R, speed);
-  analogWrigte(LF_L, speed);
-  analogWrigte(RB_L, speed);
-  analogWrigte(LB_R, speed);
+  analogWrite(RF_R, speed);
+  analogWrite(LF_L, speed);
+  analogWrite(RB_L, speed);
+  analogWrite(LB_R, speed);
 }
 void moveRight(){
-  analogWrigte(RF_L, speed);
-  analogWrigte(LF_R, speed);
-  analogWrigte(RB_R, speed);
-  analogWrigte(LB_L, speed);
+  analogWrite(RF_L, speed);
+  analogWrite(LF_R, speed);
+  analogWrite(RB_R, speed);
+  analogWrite(LB_L, speed);
 }
 
 void loop(){
