@@ -4,6 +4,7 @@
 #include"./../Class/move.h"
 
 Servo Servo1, Servo2, Servo3, Servo4;
+move DC_Motor;
 
 void setup(){
   Serial.begin(115200);
@@ -15,6 +16,6 @@ void setup(){
 
 void loop(){
   if(Serial.available() > 0){
-    char ;
+    char rChar = Serial.read();
   }
 }
